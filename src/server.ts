@@ -1,3 +1,3 @@
-const a = 5
+const a = 6
 
 console.log(a)
