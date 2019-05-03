@@ -8,7 +8,7 @@ npm install --save typescript sucrase
 
 mkdir src
 
-package.json:
+On file package.json add the follow lines:
 
 ```
 "dev": nodemon src/server.ts
@@ -18,11 +18,23 @@ npm install --save eslint @typescript-eslint/parser @typescript-eslint/eslint-pl
 
 ./node_modules/.bin/eslint --init
 ```
-then config .eslint.js
 
 ```
 npm install --save prettier eslint-config-prettier eslint-plugin-prettier
 ```
+
+then config .eslint.js
+
+```
+    parser: '@typescript-eslint/parser'
+    plugins: ['@typescript-eslint'],
+    'extends': [
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'standard'
+    ]
+```
+
 
 On settings.json of vscode add the follow lines:
 ```javascript
