@@ -15,9 +15,13 @@ On file package.json add the follow lines:
 "build": "sucrase ./src -d ./dist --transforms typescript,imports"
 
 npm install --save eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
 
+then run
+```
 ./node_modules/.bin/eslint --init
 ```
+
 
 ```
 npm install --save prettier eslint-config-prettier eslint-plugin-prettier
