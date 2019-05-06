@@ -9,11 +9,13 @@ npm install --save typescript sucrase
 mkdir src
 
 On file package.json add the follow lines:
-
 ```
 "dev": nodemon src/server.ts
 "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+```
 
+Install the packages
+```
 npm install --save eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
