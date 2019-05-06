@@ -24,6 +24,7 @@ then run
 ./node_modules/.bin/eslint --init
 ```
 
+Install the other packages
 
 ```
 npm install --save prettier eslint-config-prettier eslint-plugin-prettier
