@@ -59,3 +59,12 @@ On settings.json of vscode add the follow lines:
         { "language": "javascriptreact", "autoFix": true }
     ]
 ```
+
+the structure of project is done.
+
+now install the project dependencies.
+
+```
+npm install --save express cors mongoose
+npm install --save @types/express @types/cors @types/mongoose -D
+```
